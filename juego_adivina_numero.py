@@ -4,7 +4,7 @@ def juego():
     entrada_nombre = input("¿Cómo te llamas? ").strip()
     nombre = entrada_nombre
     if nombre.lower() == "juan":
-        print("Lo siento juan, de pequeño te caiste en una marmita llena de números, y no se te permite jugar, prueba con otro nombre")
+        print(f"Lo siento {nombre}, de pequeño te caiste en una marmita llena de números, y no se te permite jugar, prueba con otro nombre")
         print("Órdenes de arriba, no puedes jugar")
         return
 
