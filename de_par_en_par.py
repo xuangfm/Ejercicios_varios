@@ -7,9 +7,8 @@ def parenpar():
         return
 
     print(f"Bienvenido {nombre}, el objetivo es analizar si el número es par.")
-
-    jugando = True
-    while jugando:
+   
+    while True:
         try:
             numero_usuario = int(input(f"{nombre}, escribe aquí tu número para valorarlo: "))
             
